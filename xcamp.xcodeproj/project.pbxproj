@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AB0409BF2CACBE9700FAE9B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ABA17B392CAC9D6F000C5050 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,19 +55,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ABA17B502CAC9E70000C5050 /* L01EX02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX02; path = /Users/lei/Documents/learn/xcamp/build/Debug/L01EX02; sourceTree = "<absolute>"; };
-		ABA17B5B2CAC9EA2000C5050 /* L01HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW01; path = /Users/lei/Documents/learn/xcamp/build/Debug/L01HW01; sourceTree = "<absolute>"; };
-		ABA17B662CAC9EB0000C5050 /* L01HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW02; path = /Users/lei/Documents/learn/xcamp/build/Debug/L01HW02; sourceTree = "<absolute>"; };
-		ABA17B772CAC9F5F000C5050 /* L01EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX01; path = /Users/lei/Documents/learn/xcamp/build/Debug/L01EX01; sourceTree = "<absolute>"; };
+		AB0409A62CACAE0F00FAE9B3 /* L01EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L01EX01; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0409A72CACAE0F00FAE9B3 /* L01EX02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L01EX02; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0409A82CACAE0F00FAE9B3 /* L01HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L01HW01; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0409A92CACAE0F00FAE9B3 /* L01HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L01HW02; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0409C12CACBE9700FAE9B3 /* L01HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L01HW03; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB0409CB2CACBE9D00FAE9B3 /* Exceptions for "c202" folder in "L01HW03" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				L01HW03/Letters.cpp,
+			);
+			target = AB0409C02CACBE9700FAE9B3 /* L01HW03 */;
+		};
 		ABDC0DB62CACA017009EA887 /* Exceptions for "c202" folder in "L01EX01" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				L01EX02/ShortestSteps.cpp,
 				L01HW01/CollectionInput.cpp,
 				L01HW02/CountingRooms.cpp,
+				L01HW03/Letters.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
@@ -93,6 +111,7 @@
 				ABDC0DB72CACA017009EA887 /* Exceptions for "c202" folder in "L01EX02" target */,
 				ABDC0DBC2CACA01B009EA887 /* Exceptions for "c202" folder in "L01HW01" target */,
 				ABDC0DC12CACA01F009EA887 /* Exceptions for "c202" folder in "L01HW02" target */,
+				AB0409CB2CACBE9D00FAE9B3 /* Exceptions for "c202" folder in "L01HW03" target */,
 			);
 			path = c202;
 			sourceTree = "<group>";
@@ -100,6 +119,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB0409BE2CACBE9700FAE9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABA17B382CAC9D6F000C5050 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,12 +161,36 @@
 			isa = PBXGroup;
 			children = (
 				ABA17B462CAC9DBB000C5050 /* c202 */,
+				AB0409A62CACAE0F00FAE9B3 /* L01EX01 */,
+				AB0409A72CACAE0F00FAE9B3 /* L01EX02 */,
+				AB0409A82CACAE0F00FAE9B3 /* L01HW01 */,
+				AB0409A92CACAE0F00FAE9B3 /* L01HW02 */,
+				AB0409C12CACBE9700FAE9B3 /* L01HW03 */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB0409C02CACBE9700FAE9B3 /* L01HW03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0409C72CACBE9700FAE9B3 /* Build configuration list for PBXNativeTarget "L01HW03" */;
+			buildPhases = (
+				AB0409BD2CACBE9700FAE9B3 /* Sources */,
+				AB0409BE2CACBE9700FAE9B3 /* Frameworks */,
+				AB0409BF2CACBE9700FAE9B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L01HW03;
+			packageProductDependencies = (
+			);
+			productName = L01HW03;
+			productReference = AB0409C12CACBE9700FAE9B3 /* L01HW03 */;
+			productType = "com.apple.product-type.tool";
+		};
 		ABA17B3A2CAC9D6F000C5050 /* L01EX01 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABA17B422CAC9D6F000C5050 /* Build configuration list for PBXNativeTarget "L01EX01" */;
@@ -160,7 +210,7 @@
 			packageProductDependencies = (
 			);
 			productName = xcamp;
-			productReference = ABA17B772CAC9F5F000C5050 /* L01EX01 */;
+			productReference = AB0409A62CACAE0F00FAE9B3 /* L01EX01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B4F2CAC9E70000C5050 /* L01EX02 */ = {
@@ -179,7 +229,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01EX02;
-			productReference = ABA17B502CAC9E70000C5050 /* L01EX02 */;
+			productReference = AB0409A72CACAE0F00FAE9B3 /* L01EX02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B5A2CAC9EA2000C5050 /* L01HW01 */ = {
@@ -198,7 +248,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01HW01;
-			productReference = ABA17B5B2CAC9EA2000C5050 /* L01HW01 */;
+			productReference = AB0409A82CACAE0F00FAE9B3 /* L01HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B652CAC9EB0000C5050 /* L01HW02 */ = {
@@ -217,7 +267,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01HW02;
-			productReference = ABA17B662CAC9EB0000C5050 /* L01HW02 */;
+			productReference = AB0409A92CACAE0F00FAE9B3 /* L01HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -229,6 +279,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					AB0409C02CACBE9700FAE9B3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					ABA17B3A2CAC9D6F000C5050 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -261,11 +314,19 @@
 				ABA17B4F2CAC9E70000C5050 /* L01EX02 */,
 				ABA17B5A2CAC9EA2000C5050 /* L01HW01 */,
 				ABA17B652CAC9EB0000C5050 /* L01HW02 */,
+				AB0409C02CACBE9700FAE9B3 /* L01HW03 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AB0409BD2CACBE9700FAE9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABA17B372CAC9D6F000C5050 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,6 +358,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AB0409C52CACBE9700FAE9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB0409C62CACBE9700FAE9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ABA17B402CAC9D6F000C5050 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,6 +556,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB0409C72CACBE9700FAE9B3 /* Build configuration list for PBXNativeTarget "L01HW03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0409C52CACBE9700FAE9B3 /* Debug */,
+				AB0409C62CACBE9700FAE9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ABA17B362CAC9D6F000C5050 /* Build configuration list for PBXProject "xcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
