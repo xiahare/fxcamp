@@ -66,13 +66,14 @@ int main() {
     s_in_s.insert(s);
     
     int result1=0,result2=0;
-    for(auto sit: s_in_s){
+    for(auto& sit: s_in_s){
         if(sit.size()==1){
             result1++;
         }
         if(sit.size()==2){
             result2++;
         }
+        
     }
     
     cout<<result1<<endl;
