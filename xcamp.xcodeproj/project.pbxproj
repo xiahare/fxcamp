@@ -174,23 +174,23 @@
 		AB00220E2CB227C000D359C6 /* Exceptions for "c202" folder in "L02HW03" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				L02HW03/main.cpp,
+				L02HW03/citiesAndStates.cpp,
 			);
 			target = AB0021FF2CB227BB00D359C6 /* L02HW03 */;
-		};
-		AB00222E2CB228B800D359C6 /* Exceptions for "c202" folder in "L02HW04" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				L02HW04/main.cpp,
-			);
-			target = AB0022152CB228A400D359C6 /* L02HW04 */;
 		};
 		AB00222F2CB228B800D359C6 /* Exceptions for "c202" folder in "L02HW05" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				L02HW05/main.cpp,
+				L02HW05/NotLast.cpp,
 			);
 			target = AB0022202CB228B200D359C6 /* L02HW05 */;
+		};
+		AB0022352CB35D6800D359C6 /* Exceptions for "c202" folder in "L02HW04" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				L02HW04/sumOf2values.cpp,
+			);
+			target = AB0022152CB228A400D359C6 /* L02HW04 */;
 		};
 		AB0409CB2CACBE9D00FAE9B3 /* Exceptions for "c202" folder in "L01HW03" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -218,9 +218,9 @@
 				"L02EX02/team-tic-tac-toe.cpp",
 				"L02HW01/distict-number.cpp",
 				"L02HW02/where-am-I.cpp",
-				L02HW03/main.cpp,
-				L02HW04/main.cpp,
-				L02HW05/main.cpp,
+				L02HW03/citiesAndStates.cpp,
+				L02HW04/sumOf2values.cpp,
+				L02HW05/NotLast.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
@@ -262,7 +262,7 @@
 				AB0021F02CB2279F00D359C6 /* Exceptions for "c202" folder in "L02HW01" target */,
 				AB00220D2CB227C000D359C6 /* Exceptions for "c202" folder in "L02HW02" target */,
 				AB00220E2CB227C000D359C6 /* Exceptions for "c202" folder in "L02HW03" target */,
-				AB00222E2CB228B800D359C6 /* Exceptions for "c202" folder in "L02HW04" target */,
+				AB0022352CB35D6800D359C6 /* Exceptions for "c202" folder in "L02HW04" target */,
 				AB00222F2CB228B800D359C6 /* Exceptions for "c202" folder in "L02HW05" target */,
 			);
 			path = c202;
