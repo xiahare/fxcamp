@@ -42,7 +42,6 @@ int main() {
         // the second last min
         int minMilk=v[0].second;
         int min2Milk=0;
-        int count = 0;
         for(auto p:v){
             if(minMilk!=p.second && min2Milk==0){
                 min2Milk = p.second;
@@ -54,12 +53,12 @@ int main() {
         }
         
     }
-    if(count>1){
-        // tie
-        cout << "Tie" << endl;
-    }else{
+    if(count==1){
         // v[0].first
         cout << minName << endl;
+    }else{
+        // tie
+        cout << "Tie" << endl;
     }
     return 0;
 }
@@ -107,4 +106,16 @@ Henrietta 5
 
 answer:
 Bessie
+ 
+7
+Bessie 1
+Maggie 1
+Elsie 1
+Henrietta 1
+Gertie 1
+Daisy 1
+Annabelle 1
+
+answer:
+Tie
  */
