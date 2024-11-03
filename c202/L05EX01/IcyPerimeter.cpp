@@ -6,6 +6,10 @@
 #include <fstream>
 using namespace std;
 
+/**
+ https://usaco.org/current/current/index.php?page=viewproblem2&cpid=895#
+ */
+
 struct Point{
     int x,y;
 };
