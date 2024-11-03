@@ -28,10 +28,10 @@ int main() {
         q.pop();
         
         int high_bound = t + ai[t];
-        if(high_bound>1 && high_bound<=n){
+        if(high_bound>1){
             int start = ai[t]<0?1:t;
             int next_step = rs[t].step + 1;
-            for(int i=start; i<=high_bound;i++){
+            for(int i=start; i<=high_bound&&i<=n;i++){
                 int next_log = i;
                 
                 if(next_log==n){
@@ -65,4 +65,8 @@ answer:
 answer:
 -1
  
+5
+9 -5 -2 -8 7
+answer:
+1
  */
