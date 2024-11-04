@@ -473,7 +473,7 @@
 		AB1E97FF2CD843C200CC6701 /* Exceptions for "c202" folder in "L06HW03" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				L06HW03/main.cpp,
+				L06HW03/WordLadder.cpp,
 			);
 			target = AB1E97EC2CD8421200CC6701 /* L06HW03 */;
 		};
@@ -578,7 +578,7 @@
 				L05HW04/BattleShip.cpp,
 				L06HW01/chess8.cpp,
 				L06HW02/StringVariation.cpp,
-				L06HW03/main.cpp,
+				L06HW03/WordLadder.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
