@@ -42,6 +42,7 @@ bool handleQueueSucc(int next_step, queue<DotStr>& qa, map<string, int>& ma, map
                             return true;
                         }
                         // push into temp queue
+                        ma[newStr]=next_step;
                         qt.push({newStr,i});
                     
                     }
@@ -54,7 +55,7 @@ bool handleQueueSucc(int next_step, queue<DotStr>& qa, map<string, int>& ma, map
     while(!qt.empty()){
         auto t = qt.front();
         qa.push(t);
-        ma[t.str]=next_step;
+        
         qt.pop();
     }
     
