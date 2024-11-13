@@ -679,14 +679,14 @@
 		ABB9AF192CE26B2300E39AE7 /* Exceptions for "c202" folder in "L07HW03" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				L07HW03/main.cpp,
+				L07HW03/MilkTeaTrip.cpp,
 			);
 			target = ABB9AEF82CE26A4100E39AE7 /* L07HW03 */;
 		};
 		ABB9AF1A2CE26B2300E39AE7 /* Exceptions for "c202" folder in "L07HW04" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				L07HW04/main.cpp,
+				L07HW04/MachineTranslation.cpp,
 			);
 			target = ABB9AF032CE26A4E00E39AE7 /* L07HW04 */;
 		};
@@ -729,8 +729,8 @@
 				L06HW03/WordLadder.cpp,
 				L07HW01/PouringWine.cpp,
 				L07HW02/StrangeAction.cpp,
-				L07HW03/main.cpp,
-				L07HW04/main.cpp,
+				L07HW03/MilkTeaTrip.cpp,
+				L07HW04/MachineTranslation.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
