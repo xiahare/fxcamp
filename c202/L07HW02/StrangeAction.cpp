@@ -4,41 +4,48 @@
 
 using namespace std;
 
-vector<int> options(2,0);
+int gcd(int a, int b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
+
+int gcdOfFour(int a, int b, int c, int d) {
+    return gcd(gcd(a, b), gcd(c, d));
+}
 
 int main() {
-    int start, end;
+    int start, end , a, b;
     cin>> start >> end;
     
     if(start==end){
-        cout<<0<<endl;
+        cout<<1<<endl;
         return 0;
     }
     
-    cin>> options[0] >> options[1];
+    cin>> a >> b;
     
-    queue<int> q;
-    q.push(start);
-    int ways=0;
+    // gcd()
+    int cd = gcdOfFour(start,end,a,b);
     
-    while(!q.empty()){
-        auto t = q.front();
-        q.pop();
+    // update init data
+    start = start/cd;
+    end = end/cd;
+    a=a/cd;
+    b=b/cd;
+    
+    int n = start - end +1;
+    
+    // init
+    vector<int> dp(n,0);
+    dp[0]=1;
+    // dp process
+    for( int i=1; i<n; i++){
+            // dp(i) = dp(i-a) + dp(i-b)
+        int ia = i-a, ib = i-b;
+        dp[i] = (ia>=0?dp[ia]:0) + (ib>=0?dp[ib]:0);
         
-        for(int i=0; i<2; i++){
-            int newPrice = t - options[i];
-            if( newPrice==end ){
-                // end
-                ways++;
-                continue;
-            }
-            if( newPrice>end){
-                q.push(newPrice);
-            }
-        }
     }
     
-    cout<<ways<<endl;
+    cout<<dp[n-1]<<endl;
     return 0;
 }
 
@@ -58,4 +65,9 @@ int main() {
 5000 9000
 -------
 102342019
+ 
+686 256
+12 26
+-------
+1494584
  */

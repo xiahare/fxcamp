@@ -56,6 +56,11 @@ int main() {
                         newState[i] = t[i]-change;
                         newState[j] = t[j]+change;
                         
+                        // check visited
+                        if(m.find(newState)!=m.end()){
+                            continue;
+                        }
+                        
                         // check if end state
                         int cnt_half=0;
                         for(int k=0; k<3; k++){
@@ -94,6 +99,10 @@ int main() {
 NO
  
 11 5 3
+------
+NO
+ 
+10 8 6
 ------
 NO
  */
