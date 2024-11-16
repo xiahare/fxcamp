@@ -63,7 +63,7 @@ int main(int argc, const char * argv[]) {
     int next_step=0;
     bool endH=false, endY=false;
     int dHQ=-1,dYQ=-1;
-    while( (!endH || !endY) && !qsh.empty() && !qsy.empty() && !qq.empty() ){
+    while( (!endH || !endY) && (!qsh.empty() || !qsy.empty()) && !qq.empty() ){
         
         next_step++;
         
@@ -189,5 +189,14 @@ int main(int argc, const char * argv[]) {
 ------------
 no way
 
- 
+
+6 7
+...H#.#
+#.#..##
+.###...
+.#.##Y.
+.......
+Q#....#
+-----------
+19
  */

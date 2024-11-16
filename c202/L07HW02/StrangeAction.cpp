@@ -1,13 +1,12 @@
 
 #include <iostream>
 #include <queue>
-#include <map>
 
 using namespace std;
 
 vector<int> options(2,0);
 
-int main(int argc, const char * argv[]) {
+int main() {
     int start, end;
     cin>> start >> end;
     
@@ -19,30 +18,27 @@ int main(int argc, const char * argv[]) {
     cin>> options[0] >> options[1];
     
     queue<int> q;
-    map<int, int> m;
     q.push(start);
-    m[start]=0;
+    int ways=0;
     
     while(!q.empty()){
         auto t = q.front();
         q.pop();
-        int next_step = m[t]+1;
         
         for(int i=0; i<2; i++){
             int newPrice = t - options[i];
             if( newPrice==end ){
                 // end
-                cout << next_step << endl;
-                return 0;
+                ways++;
+                continue;
             }
-            if( newPrice>end && m.find(newPrice)==m.end() ){
+            if( newPrice>end){
                 q.push(newPrice);
-                m[newPrice]=next_step;
             }
         }
     }
     
-    cout<<-1<<endl;
+    cout<<ways<<endl;
     return 0;
 }
 
@@ -52,4 +48,14 @@ int main(int argc, const char * argv[]) {
 -------
 3
  
+200 100
+20 30
+-------
+7
+ 
+ 
+300000 100000
+5000 9000
+-------
+102342019
  */
