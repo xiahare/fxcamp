@@ -63,6 +63,10 @@ int main(int argc, const char * argv[]) {
     cin >> ax >> ay;
     cin >> bx >> by;
     
+    if(ax==bx && ay==by){
+        cout<<0<<endl;
+        return 0;
+    }
     
 //     // Method 1:
 //    int deltx=bx-ax,delty=by-ay;
@@ -113,4 +117,10 @@ Answer:
 5 8
 Answer:
 7
+ 
+20
+2 3
+2 3
+---------
+0
  */

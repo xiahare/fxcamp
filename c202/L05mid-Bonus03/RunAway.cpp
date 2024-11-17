@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <queue>
+
 using namespace std;
 
 struct Point {
@@ -9,7 +10,7 @@ struct Point {
 
 vector<Point> dirs = {{-1,0,0},{1,0,0},{0,-1,0},{0,1,0},{0,0,-1},{0,0,1}};
 
-bool handleQueueSucc(vector<vector<vector<int>>> &maze, int next_step, queue<Point> &qa, vector<vector<vector<int>>>& ra, vector<vector<vector<int>>>& rb, int &xn, int &yn, int& zn){
+bool handleQueueSucc(vector<vector<vector<char>>> &maze, int next_step, queue<Point> &qa, vector<vector<vector<int>>>& ra, vector<vector<vector<int>>>& rb, int &xn, int &yn, int& zn){
     queue<Point> qt;
     while(!qa.empty()){
         auto t = qa.front();
@@ -21,7 +22,7 @@ bool handleQueueSucc(vector<vector<vector<int>>> &maze, int next_step, queue<Poi
                newP.y>=0 && newP.y<yn &&
                newP.z>=0 && newP.z<zn &&
                ra[newP.x][newP.y][newP.z]==-1 &&
-               maze[newP.x][newP.y][newP.z]==0){
+               maze[newP.x][newP.y][newP.z]=='0'){
                 
                 // success
                 if(rb[newP.x][newP.y][newP.z]!=-1){
@@ -46,43 +47,51 @@ bool handleQueueSucc(vector<vector<vector<int>>> &maze, int next_step, queue<Poi
 
 int execute(){
     
-        int xn,yn,zn,limit;
-        cin>>xn>>yn>>zn>>limit;
+    int xn,yn,zn,limit;
+    cin>>xn>>yn>>zn>>limit;
         
-        vector<vector<vector<int>>> maze(xn,vector(yn,vector(zn,-1))),ra(xn,vector(yn,vector(zn,-1))),rb(xn,vector(yn,vector(zn,-1)));
-        for(int i=0; i<xn; i++)
-            for(int j=0;j<yn;j++)
-                for(int k=0;k<zn;k++){
-                    cin>>maze[i][j][k];
-                }
+    vector<vector<vector<char>>> maze(xn, vector<vector<char>>(yn, vector<char>(zn, '1')));
+    vector<vector<vector<int>>> ra(xn, vector<vector<int>>(yn, vector<int>(zn, -1)));
+    vector<vector<vector<int>>> rb(xn, vector<vector<int>>(yn, vector<int>(zn, -1)));
+    
+    for(int i=0; i<xn; i++)
+        for(int j=0;j<yn;j++)
+            for(int k=0;k<zn;k++){
+                cin>>maze[i][j][k];
+            }
         
-        queue<Point> qa,qb;
-        qa.push({0,0,0});
-        qb.push({xn-1,yn-1,zn-1});
-        ra[0][0][0]=0;
-        rb[xn-1][yn-1][zn-1]=0;
-        
-        int next_step=0;
-        while(!qa.empty()&&!qb.empty()){
-            next_step++;
-            if(limit%2==0&&next_step*2>limit){
-                cout<<-1<<endl;
-                return 0;
-            }
-            if(handleQueueSucc(maze,next_step,qa,ra,rb,xn,yn,zn)){
-                return 0;
-            }
-            if(limit%2==1&&next_step*2>limit){
-                cout<<-1<<endl;
-                return 0;
-            }
-            if(handleQueueSucc(maze,next_step,qb,rb,ra,xn,yn,zn)){
-                return 0;
-            }
-        }
-        
+    if(maze[0][0][0]=='1' || maze[xn-1][yn-1][zn-1]=='1'){
         cout<<-1<<endl;
         return 0;
+    }
+    
+    queue<Point> qa,qb;
+    qa.push({0,0,0});
+    qb.push({xn-1,yn-1,zn-1});
+    ra[0][0][0]=0;
+    rb[xn-1][yn-1][zn-1]=0;
+    
+    int next_step=0;
+    while(!qa.empty()&&!qb.empty()){
+        next_step++;
+        if(limit%2==0&&next_step*2>limit){
+            cout<<-1<<endl;
+            return 0;
+        }
+        if(handleQueueSucc(maze,next_step,qa,ra,rb,xn,yn,zn)){
+            return 0;
+        }
+        if(limit%2==1&&next_step*2>limit){
+            cout<<-1<<endl;
+            return 0;
+        }
+        if(handleQueueSucc(maze,next_step,qb,rb,ra,xn,yn,zn)){
+            return 0;
+        }
+    }
+    
+    cout<<-1<<endl;
+    return 0;
 }
 int main() {
     
