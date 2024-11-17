@@ -17,6 +17,27 @@ vector<Point> dirs = {{-1,0},{1,0},{0,-1},{0,1}};
 bool inbound(Point &p, int &n, int &m){
     return p.x>=0 && p.x<n && p.y>=0 && p.y<m;
 }
+
+bool extendAdjacents(Point &t, const int &next_turn, Point &e, queue<Point> &q, int &n, int &m, vector<vector<int>> &v, vector<vector<char>> &maze){
+    for(auto dir:dirs){
+        Point np = t + dir;
+        while( inbound(np,n,m) && v[np.x][np.y]==-1 && maze[np.x][np.y]=='0' ){
+            if( np==e ){
+                // end
+                cout << next_turn << endl;
+                return true;
+            }
+            
+            q.push(np);
+            v[np.x][np.y]=next_turn;
+            
+            // move to next straight point
+            np = np + dir;
+        }
+    }
+    return false;
+}
+
 int main() {
     int n, m;
     cin >> n >> m;
@@ -32,7 +53,7 @@ int main() {
     cin >> s.x >> s.y >> e.x >> e.y;
     
     // update index, due to input indexed from 1
-    // the following indexed from 0
+    // need to change to be indexed from 0
     s.x--;
     s.y--;
     e.x--;
@@ -42,23 +63,9 @@ int main() {
     queue<Point> q;
     q.push(s);
     v[s.x][s.y]=0;
-    for(auto dir:dirs){
-        Point np = s;
-        while( true ){
-            np = np + dir;
-            if( inbound(np,n,m) && v[np.x][np.y]==-1 && maze[np.x][np.y]=='0'){
-                if( np==e ){
-                    // end
-                    cout << 0 << endl;
-                    return 0;
-                }
-                q.push(np);
-                v[np.x][np.y]=0;
-            } else {
-                break;
-            }
-
-        }
+    
+    if(extendAdjacents(s,0,e,q,n,m,v,maze)){
+        return 0;
     }
     
     while(!q.empty()){
@@ -66,25 +73,10 @@ int main() {
         q.pop();
         int next_turn = v[t.x][t.y] + 1;
         
-        for(auto dir:dirs){
-            Point np = t;
-            while( true ){
-                np = np + dir;
-                if( inbound(np,n,m) && v[np.x][np.y]==-1 && maze[np.x][np.y]=='0'){
-                    if( np==e ){
-                        // end
-                        cout << next_turn << endl;
-                        return 0;
-                    }
-                    
-                    q.push(np);
-                    v[np.x][np.y]=next_turn;
-                } else {
-                    break;
-                }
-
-            }
+        if(extendAdjacents(t,next_turn,e,q,n,m,v,maze)){
+            return 0;
         }
+
     }
     
     cout << -1 << endl;
