@@ -385,6 +385,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABB9AF322CE9946000E39AE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABB9AF3D2CE9946D00E39AE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABB9AF482CE9947600E39AE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABB9AF532CE9947F00E39AE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -430,6 +466,10 @@
 		ABB9AEF92CE26A4100E39AE7 /* L07HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L07HW03; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB9AF042CE26A4E00E39AE7 /* L07HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L07HW04; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB9AF252CE98B9C00E39AE7 /* L05mid-Bonux03-x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "L05mid-Bonux03-x"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB9AF342CE9946000E39AE7 /* L08HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L08HW01; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB9AF3F2CE9946D00E39AE7 /* L08HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L08HW02; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB9AF4A2CE9947600E39AE7 /* L08HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L08HW03; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB9AF552CE9947F00E39AE7 /* L08HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = L08HW04; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -707,6 +747,34 @@
 			);
 			target = ABB9AF242CE98B9C00E39AE7 /* L05mid-Bonux03-x */;
 		};
+		ABB9AF682CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW01" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				L08HW01/KnightMoves.cpp,
+			);
+			target = ABB9AF332CE9946000E39AE7 /* L08HW01 */;
+		};
+		ABB9AF692CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW02" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				L08HW02/Pioneers.cpp,
+			);
+			target = ABB9AF3E2CE9946D00E39AE7 /* L08HW02 */;
+		};
+		ABB9AF6A2CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW03" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				L08HW03/MinimumTurns.cpp,
+			);
+			target = ABB9AF492CE9947600E39AE7 /* L08HW03 */;
+		};
+		ABB9AF6B2CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW04" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				L08HW04/shortestpath.cpp,
+			);
+			target = ABB9AF542CE9947F00E39AE7 /* L08HW04 */;
+		};
 		ABDC0DB62CACA017009EA887 /* Exceptions for "c202" folder in "L01EX01" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -749,6 +817,10 @@
 				L07HW02/StrangeAction.cpp,
 				L07HW03/MilkTeaTrip.cpp,
 				L07HW04/MachineTranslation.cpp,
+				L08HW01/KnightMoves.cpp,
+				L08HW02/Pioneers.cpp,
+				L08HW03/MinimumTurns.cpp,
+				L08HW04/shortestpath.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
@@ -829,6 +901,10 @@
 				ABB9AF192CE26B2300E39AE7 /* Exceptions for "c202" folder in "L07HW03" target */,
 				ABB9AF1A2CE26B2300E39AE7 /* Exceptions for "c202" folder in "L07HW04" target */,
 				ABB9AF2F2CE98BA700E39AE7 /* Exceptions for "c202" folder in "L05mid-Bonux03-x" target */,
+				ABB9AF682CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW01" target */,
+				ABB9AF692CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW02" target */,
+				ABB9AF6A2CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW03" target */,
+				ABB9AF6B2CE9948900E39AE7 /* Exceptions for "c202" folder in "L08HW04" target */,
 			);
 			path = c202;
 			sourceTree = "<group>";
@@ -1130,6 +1206,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABB9AF312CE9946000E39AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF3C2CE9946D00E39AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF472CE9947600E39AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF522CE9947F00E39AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1180,6 +1284,10 @@
 				ABB9AEF92CE26A4100E39AE7 /* L07HW03 */,
 				ABB9AF042CE26A4E00E39AE7 /* L07HW04 */,
 				ABB9AF252CE98B9C00E39AE7 /* L05mid-Bonux03-x */,
+				ABB9AF342CE9946000E39AE7 /* L08HW01 */,
+				ABB9AF3F2CE9946D00E39AE7 /* L08HW02 */,
+				ABB9AF4A2CE9947600E39AE7 /* L08HW03 */,
+				ABB9AF552CE9947F00E39AE7 /* L08HW04 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1988,6 +2096,82 @@
 			productReference = ABB9AF252CE98B9C00E39AE7 /* L05mid-Bonux03-x */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABB9AF332CE9946000E39AE7 /* L08HW01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB9AF382CE9946100E39AE7 /* Build configuration list for PBXNativeTarget "L08HW01" */;
+			buildPhases = (
+				ABB9AF302CE9946000E39AE7 /* Sources */,
+				ABB9AF312CE9946000E39AE7 /* Frameworks */,
+				ABB9AF322CE9946000E39AE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L08HW01;
+			packageProductDependencies = (
+			);
+			productName = L08HW01;
+			productReference = ABB9AF342CE9946000E39AE7 /* L08HW01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABB9AF3E2CE9946D00E39AE7 /* L08HW02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB9AF432CE9946D00E39AE7 /* Build configuration list for PBXNativeTarget "L08HW02" */;
+			buildPhases = (
+				ABB9AF3B2CE9946D00E39AE7 /* Sources */,
+				ABB9AF3C2CE9946D00E39AE7 /* Frameworks */,
+				ABB9AF3D2CE9946D00E39AE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L08HW02;
+			packageProductDependencies = (
+			);
+			productName = L08HW02;
+			productReference = ABB9AF3F2CE9946D00E39AE7 /* L08HW02 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABB9AF492CE9947600E39AE7 /* L08HW03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB9AF4E2CE9947600E39AE7 /* Build configuration list for PBXNativeTarget "L08HW03" */;
+			buildPhases = (
+				ABB9AF462CE9947600E39AE7 /* Sources */,
+				ABB9AF472CE9947600E39AE7 /* Frameworks */,
+				ABB9AF482CE9947600E39AE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L08HW03;
+			packageProductDependencies = (
+			);
+			productName = L08HW03;
+			productReference = ABB9AF4A2CE9947600E39AE7 /* L08HW03 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABB9AF542CE9947F00E39AE7 /* L08HW04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB9AF592CE9948000E39AE7 /* Build configuration list for PBXNativeTarget "L08HW04" */;
+			buildPhases = (
+				ABB9AF512CE9947F00E39AE7 /* Sources */,
+				ABB9AF522CE9947F00E39AE7 /* Frameworks */,
+				ABB9AF532CE9947F00E39AE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = L08HW04;
+			packageProductDependencies = (
+			);
+			productName = L08HW04;
+			productReference = ABB9AF552CE9947F00E39AE7 /* L08HW04 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2123,6 +2307,18 @@
 					ABB9AF242CE98B9C00E39AE7 = {
 						CreatedOnToolsVersion = 16.0;
 					};
+					ABB9AF332CE9946000E39AE7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABB9AF3E2CE9946D00E39AE7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABB9AF492CE9947600E39AE7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABB9AF542CE9947F00E39AE7 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 				};
 			};
 			buildConfigurationList = ABA17B362CAC9D6F000C5050 /* Build configuration list for PBXProject "xcamp" */;
@@ -2181,6 +2377,10 @@
 				ABB9AEF82CE26A4100E39AE7 /* L07HW03 */,
 				ABB9AF032CE26A4E00E39AE7 /* L07HW04 */,
 				ABB9AF242CE98B9C00E39AE7 /* L05mid-Bonux03-x */,
+				ABB9AF332CE9946000E39AE7 /* L08HW01 */,
+				ABB9AF3E2CE9946D00E39AE7 /* L08HW02 */,
+				ABB9AF492CE9947600E39AE7 /* L08HW03 */,
+				ABB9AF542CE9947F00E39AE7 /* L08HW04 */,
 			);
 		};
 /* End PBXProject section */
@@ -2474,6 +2674,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABB9AF212CE98B9C00E39AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF302CE9946000E39AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF3B2CE9946D00E39AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF462CE9947600E39AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9AF512CE9947F00E39AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3270,6 +3498,70 @@
 			};
 			name = Release;
 		};
+		ABB9AF392CE9946100E39AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB9AF3A2CE9946100E39AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABB9AF442CE9946D00E39AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB9AF452CE9946D00E39AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABB9AF4F2CE9947600E39AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB9AF502CE9947600E39AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABB9AF5A2CE9948000E39AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB9AF5B2CE9948000E39AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3656,6 +3948,42 @@
 			buildConfigurations = (
 				ABB9AF2A2CE98B9C00E39AE7 /* Debug */,
 				ABB9AF2B2CE98B9C00E39AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB9AF382CE9946100E39AE7 /* Build configuration list for PBXNativeTarget "L08HW01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB9AF392CE9946100E39AE7 /* Debug */,
+				ABB9AF3A2CE9946100E39AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB9AF432CE9946D00E39AE7 /* Build configuration list for PBXNativeTarget "L08HW02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB9AF442CE9946D00E39AE7 /* Debug */,
+				ABB9AF452CE9946D00E39AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB9AF4E2CE9947600E39AE7 /* Build configuration list for PBXNativeTarget "L08HW03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB9AF4F2CE9947600E39AE7 /* Debug */,
+				ABB9AF502CE9947600E39AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB9AF592CE9948000E39AE7 /* Build configuration list for PBXNativeTarget "L08HW04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB9AF5A2CE9948000E39AE7 /* Debug */,
+				ABB9AF5B2CE9948000E39AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
