@@ -1,20 +1,8 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
 
 using namespace std;
 
 int main() {
-    
-    int i=100;
-    while(i--){
-        int a , b;
-        cin >> a >> b ;
-        cout << (a==b) << " | "<< a << "," << b << endl;
-        
-        
-    }
-    
+    vector<int> v = {1, 2, 3};
+    cout << "Sum: " << accumulate(v.begin(), v.end(), 0) << endl;
     return 0;
 }
