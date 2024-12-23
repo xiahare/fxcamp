@@ -776,21 +776,21 @@
 		AB9165192D17730000A22B04 /* Exceptions for "c202" folder in "final01" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				final01/main.cpp,
+				final01/EightConnected.cpp,
 			);
 			target = AB9164F22D1772DA00A22B04 /* final01 */;
 		};
 		AB91651A2D17730000A22B04 /* Exceptions for "c202" folder in "final02" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				final02/main.cpp,
+				final02/CatchCow.cpp,
 			);
 			target = AB9164FD2D1772E700A22B04 /* final02 */;
 		};
 		AB91651B2D17730000A22B04 /* Exceptions for "c202" folder in "final03" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				final03/main.cpp,
+				final03/ChessGame.cpp,
 			);
 			target = AB9165082D1772F900A22B04 /* final03 */;
 		};
@@ -965,9 +965,9 @@
 		ABDC0DB62CACA017009EA887 /* Exceptions for "c202" folder in "L01EX01" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				final01/main.cpp,
-				final02/main.cpp,
-				final03/main.cpp,
+				final01/EightConnected.cpp,
+				final02/CatchCow.cpp,
+				final03/ChessGame.cpp,
 				L01EX02/ShortestSteps.cpp,
 				L01EX03/EscapeMaze.cpp,
 				L01HW01/CollectionInput.cpp,
