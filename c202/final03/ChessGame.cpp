@@ -39,7 +39,9 @@ void dfs(int dist){
     for(Point p0: diff0){
         if(!vis[p0.x][p0.y]){
             vis[p0.x][p0.y] = true;
+
             dfs(dist + abs(p1.x-p0.x) + abs(p1.y-p0.y));
+
             vis[p0.x][p0.y] = false;
         }
 
@@ -103,6 +105,18 @@ int main() {
 1100
 ---------
 12
+---------
+Details:
+Need steps: 12
+P1:(0,1) --> P0(0,2)
+P1:(3,3) --> P0(0,3)
+P1:(2,2) --> P0(1,2)
+P1:(2,3) --> P0(1,3)
+P1:(1,0) --> P0(2,0)
+P1:(1,1) --> P0(2,1)
+P1:(0,0) --> P0(3,0)
+P1:(3,2) --> P0(3,1)
+ 
  
 1110
 1110
