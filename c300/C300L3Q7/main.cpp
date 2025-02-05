@@ -29,11 +29,11 @@ int main() {
     int cnt = 0;
     // calculate psum,
     for(int i=1;i<max_x+1;i++){
-        //cout << " ";
+        // cout << " ";
         for(int j=1;j<max_y+1;j++){
             // overwrite with psum
             diff[i][j] = diff[i][j] + diff[i][j-1] + diff[i-1][j] - diff[i-1][j-1];
-            //cout << diff[i][j] << " ";
+            // cout << diff[i][j] << " ";
             if(diff[i][j]==k){
                 cnt++;
             }

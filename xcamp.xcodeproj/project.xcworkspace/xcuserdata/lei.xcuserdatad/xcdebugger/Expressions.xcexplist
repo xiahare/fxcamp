@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:BFS_FloodFill.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "visisted[0][0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "possible:Letters.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:EscapeMaze.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:where-am-I.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "n-len+1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:PoolCounting.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "bloodfill:EscapeMaze.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "maze[x][y]">
+            </PersistentString>
+            <PersistentString
+               value = "maze[x][y]!=&apos;.&apos;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bloodfill:Letters.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "((int)(maze[x][y]))-ASCII_A">
+            </PersistentString>
+            <PersistentString
+               value = "maze[x][y]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "handleQueue:chess8.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:mapExample.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
