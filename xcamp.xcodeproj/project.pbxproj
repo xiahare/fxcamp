@@ -610,76 +610,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABEB9D9F2D6023A2003650EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABEB9DAA2D6023B1003650EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABEB9DB52D6023C0003650EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABEB9DC02D6023CB003650EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AB643C792D5336A6003EBBBC /* L01EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01EX01; sourceTree = "<absolute>"; };
-		AB643C7A2D5336A6003EBBBC /* C300L2Q4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L2Q4; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L2Q4; sourceTree = "<absolute>"; };
-		AB643C7B2D5336A6003EBBBC /* C300L2Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L2Q5; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L2Q5; sourceTree = "<absolute>"; };
-		AB643C7C2D5336A6003EBBBC /* C300L2Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L2Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L2Q6; sourceTree = "<absolute>"; };
-		AB643C7D2D5336A6003EBBBC /* C300L3Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L3Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L3Q6; sourceTree = "<absolute>"; };
-		AB643C7E2D5336A6003EBBBC /* C300L3Q7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L3Q7; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L3Q7; sourceTree = "<absolute>"; };
-		AB643C7F2D5336A6003EBBBC /* C300L3Q8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L3Q8; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L3Q8; sourceTree = "<absolute>"; };
-		AB643C802D5336A6003EBBBC /* 01class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = 01class; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/01class; sourceTree = "<absolute>"; };
-		AB643C812D5336A6003EBBBC /* temp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = temp; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/temp; sourceTree = "<absolute>"; };
-		AB643C822D5336A6003EBBBC /* L01EX02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01EX02; sourceTree = "<absolute>"; };
-		AB643C832D5336A6003EBBBC /* L01HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01HW01; sourceTree = "<absolute>"; };
-		AB643C842D5336A6003EBBBC /* L01HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01HW02; sourceTree = "<absolute>"; };
-		AB643C852D5336A6003EBBBC /* L01HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01HW03; sourceTree = "<absolute>"; };
-		AB643C862D5336A6003EBBBC /* L01EX03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01EX03; sourceTree = "<absolute>"; };
-		AB643C872D5336A6003EBBBC /* L02EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02EX01; sourceTree = "<absolute>"; };
-		AB643C882D5336A6003EBBBC /* L02EX02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02EX02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02EX02; sourceTree = "<absolute>"; };
-		AB643C892D5336A6003EBBBC /* L02HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW01; sourceTree = "<absolute>"; };
-		AB643C8A2D5336A6003EBBBC /* L02HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW02; sourceTree = "<absolute>"; };
-		AB643C8B2D5336A6003EBBBC /* L02HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW03; sourceTree = "<absolute>"; };
-		AB643C8C2D5336A6003EBBBC /* L02HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW04; sourceTree = "<absolute>"; };
-		AB643C8D2D5336A6003EBBBC /* L02HW05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW05; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW05; sourceTree = "<absolute>"; };
-		AB643C8E2D5336A6003EBBBC /* L03HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW01; sourceTree = "<absolute>"; };
-		AB643C8F2D5336A6003EBBBC /* L03HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW02; sourceTree = "<absolute>"; };
-		AB643C902D5336A6003EBBBC /* L03HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW03; sourceTree = "<absolute>"; };
-		AB643C912D5336A6003EBBBC /* L03HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW04; sourceTree = "<absolute>"; };
-		AB643C922D5336A6003EBBBC /* L03EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03EX01; sourceTree = "<absolute>"; };
-		AB643C932D5336A6003EBBBC /* L04HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW01; sourceTree = "<absolute>"; };
-		AB643C942D5336A6003EBBBC /* L04HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW02; sourceTree = "<absolute>"; };
-		AB643C952D5336A6003EBBBC /* L04HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW03; sourceTree = "<absolute>"; };
-		AB643C962D5336A6003EBBBC /* L04HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW04; sourceTree = "<absolute>"; };
-		AB643C972D5336A6003EBBBC /* L05EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05EX01; sourceTree = "<absolute>"; };
-		AB643C982D5336A6003EBBBC /* L05HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW01; sourceTree = "<absolute>"; };
-		AB643C992D5336A6003EBBBC /* L05HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW02; sourceTree = "<absolute>"; };
-		AB643C9A2D5336A6003EBBBC /* L05-mid-Bonus01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus01"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus01"; sourceTree = "<absolute>"; };
-		AB643C9B2D5336A6003EBBBC /* L05HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW03; sourceTree = "<absolute>"; };
-		AB643C9C2D5336A6003EBBBC /* L05HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW04; sourceTree = "<absolute>"; };
-		AB643C9D2D5336A6003EBBBC /* L06HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06HW01; sourceTree = "<absolute>"; };
-		AB643C9E2D5336A6003EBBBC /* L06HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06HW02; sourceTree = "<absolute>"; };
-		AB643C9F2D5336A6003EBBBC /* L06HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06HW03; sourceTree = "<absolute>"; };
-		AB643CA02D5336A6003EBBBC /* L06EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06EX01; sourceTree = "<absolute>"; };
-		AB643CA12D5336A6003EBBBC /* L05-mid-Bonus02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus02"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus02"; sourceTree = "<absolute>"; };
-		AB643CA22D5336A6003EBBBC /* L05-mid-Bonus03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus03"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus03"; sourceTree = "<absolute>"; };
-		AB643CA32D5336A6003EBBBC /* L05-mid-Bonus04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus04"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus04"; sourceTree = "<absolute>"; };
-		AB643CA42D5336A6003EBBBC /* L07HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW01; sourceTree = "<absolute>"; };
-		AB643CA52D5336A6003EBBBC /* L07HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW02; sourceTree = "<absolute>"; };
-		AB643CA62D5336A6003EBBBC /* L07HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW03; sourceTree = "<absolute>"; };
-		AB643CA72D5336A6003EBBBC /* L07HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW04; sourceTree = "<absolute>"; };
-		AB643CA82D5336A6003EBBBC /* L05mid-Bonux03-x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05mid-Bonux03-x"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05mid-Bonux03-x"; sourceTree = "<absolute>"; };
-		AB643CA92D5336A6003EBBBC /* L08HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW01; sourceTree = "<absolute>"; };
-		AB643CAA2D5336A6003EBBBC /* L08HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW02; sourceTree = "<absolute>"; };
-		AB643CAB2D5336A6003EBBBC /* L08HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW03; sourceTree = "<absolute>"; };
-		AB643CAC2D5336A6003EBBBC /* L08HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW04; sourceTree = "<absolute>"; };
-		AB643CAD2D5336A6003EBBBC /* L09HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L09HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L09HW01; sourceTree = "<absolute>"; };
-		AB643CAE2D5336A6003EBBBC /* L09HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L09HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L09HW02; sourceTree = "<absolute>"; };
-		AB643CAF2D5336A6003EBBBC /* L09HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L09HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L09HW03; sourceTree = "<absolute>"; };
-		AB643CB02D5336A6003EBBBC /* L10HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW01; sourceTree = "<absolute>"; };
-		AB643CB12D5336A6003EBBBC /* L10HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW02; sourceTree = "<absolute>"; };
-		AB643CB22D5336A6003EBBBC /* L10HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW03; sourceTree = "<absolute>"; };
-		AB643CB32D5336A6003EBBBC /* L10HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW04; sourceTree = "<absolute>"; };
-		AB643CB42D5336A6003EBBBC /* L10HW05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW05; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW05; sourceTree = "<absolute>"; };
-		AB643CB52D5336A6003EBBBC /* final01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = final01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/final01; sourceTree = "<absolute>"; };
-		AB643CB62D5336A6003EBBBC /* final02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = final02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/final02; sourceTree = "<absolute>"; };
-		AB643CB72D5336A6003EBBBC /* final03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = final03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/final03; sourceTree = "<absolute>"; };
-		AB643CB82D5336A6003EBBBC /* finalNew03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = finalNew03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/finalNew03; sourceTree = "<absolute>"; };
-		AB643DFB2D5336D9003EBBBC /* C300L4Q4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L4Q4; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L4Q4; sourceTree = "<absolute>"; };
-		AB643E062D5336E9003EBBBC /* C300L4Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L4Q5; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L4Q5; sourceTree = "<absolute>"; };
-		AB643E112D5336FD003EBBBC /* C300L4Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L4Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L4Q6; sourceTree = "<absolute>"; };
+		ABEB9C0D2D602346003650EC /* L01EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01EX01; sourceTree = "<absolute>"; };
+		ABEB9C0E2D602346003650EC /* C300L2Q4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L2Q4; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L2Q4; sourceTree = "<absolute>"; };
+		ABEB9C0F2D602346003650EC /* C300L2Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L2Q5; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L2Q5; sourceTree = "<absolute>"; };
+		ABEB9C102D602346003650EC /* C300L2Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L2Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L2Q6; sourceTree = "<absolute>"; };
+		ABEB9C112D602346003650EC /* C300L3Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L3Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L3Q6; sourceTree = "<absolute>"; };
+		ABEB9C122D602346003650EC /* C300L3Q7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L3Q7; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L3Q7; sourceTree = "<absolute>"; };
+		ABEB9C132D602346003650EC /* C300L3Q8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L3Q8; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L3Q8; sourceTree = "<absolute>"; };
+		ABEB9C142D602346003650EC /* C300L4Q4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L4Q4; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L4Q4; sourceTree = "<absolute>"; };
+		ABEB9C152D602346003650EC /* C300L4Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L4Q5; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L4Q5; sourceTree = "<absolute>"; };
+		ABEB9C162D602346003650EC /* C300L4Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L4Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L4Q6; sourceTree = "<absolute>"; };
+		ABEB9C172D602346003650EC /* 01class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = 01class; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/01class; sourceTree = "<absolute>"; };
+		ABEB9C182D602346003650EC /* temp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = temp; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/temp; sourceTree = "<absolute>"; };
+		ABEB9C192D602346003650EC /* L01EX02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01EX02; sourceTree = "<absolute>"; };
+		ABEB9C1A2D602346003650EC /* L01HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01HW01; sourceTree = "<absolute>"; };
+		ABEB9C1B2D602346003650EC /* L01HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01HW02; sourceTree = "<absolute>"; };
+		ABEB9C1C2D602346003650EC /* L01HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01HW03; sourceTree = "<absolute>"; };
+		ABEB9C1D2D602346003650EC /* L01EX03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L01EX03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L01EX03; sourceTree = "<absolute>"; };
+		ABEB9C1E2D602346003650EC /* L02EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02EX01; sourceTree = "<absolute>"; };
+		ABEB9C1F2D602346003650EC /* L02EX02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02EX02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02EX02; sourceTree = "<absolute>"; };
+		ABEB9C202D602346003650EC /* L02HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW01; sourceTree = "<absolute>"; };
+		ABEB9C212D602346003650EC /* L02HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW02; sourceTree = "<absolute>"; };
+		ABEB9C222D602346003650EC /* L02HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW03; sourceTree = "<absolute>"; };
+		ABEB9C232D602346003650EC /* L02HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW04; sourceTree = "<absolute>"; };
+		ABEB9C242D602346003650EC /* L02HW05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L02HW05; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L02HW05; sourceTree = "<absolute>"; };
+		ABEB9C252D602346003650EC /* L03HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW01; sourceTree = "<absolute>"; };
+		ABEB9C262D602346003650EC /* L03HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW02; sourceTree = "<absolute>"; };
+		ABEB9C272D602346003650EC /* L03HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW03; sourceTree = "<absolute>"; };
+		ABEB9C282D602346003650EC /* L03HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03HW04; sourceTree = "<absolute>"; };
+		ABEB9C292D602346003650EC /* L03EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L03EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L03EX01; sourceTree = "<absolute>"; };
+		ABEB9C2A2D602346003650EC /* L04HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW01; sourceTree = "<absolute>"; };
+		ABEB9C2B2D602346003650EC /* L04HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW02; sourceTree = "<absolute>"; };
+		ABEB9C2C2D602346003650EC /* L04HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW03; sourceTree = "<absolute>"; };
+		ABEB9C2D2D602346003650EC /* L04HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L04HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L04HW04; sourceTree = "<absolute>"; };
+		ABEB9C2E2D602346003650EC /* L05EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05EX01; sourceTree = "<absolute>"; };
+		ABEB9C2F2D602346003650EC /* L05HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW01; sourceTree = "<absolute>"; };
+		ABEB9C302D602346003650EC /* L05HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW02; sourceTree = "<absolute>"; };
+		ABEB9C312D602346003650EC /* L05-mid-Bonus01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus01"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus01"; sourceTree = "<absolute>"; };
+		ABEB9C322D602346003650EC /* L05HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW03; sourceTree = "<absolute>"; };
+		ABEB9C332D602346003650EC /* L05HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L05HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L05HW04; sourceTree = "<absolute>"; };
+		ABEB9C342D602346003650EC /* L06HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06HW01; sourceTree = "<absolute>"; };
+		ABEB9C352D602346003650EC /* L06HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06HW02; sourceTree = "<absolute>"; };
+		ABEB9C362D602346003650EC /* L06HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06HW03; sourceTree = "<absolute>"; };
+		ABEB9C372D602346003650EC /* L06EX01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L06EX01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L06EX01; sourceTree = "<absolute>"; };
+		ABEB9C382D602346003650EC /* L05-mid-Bonus02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus02"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus02"; sourceTree = "<absolute>"; };
+		ABEB9C392D602346003650EC /* L05-mid-Bonus03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus03"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus03"; sourceTree = "<absolute>"; };
+		ABEB9C3A2D602346003650EC /* L05-mid-Bonus04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05-mid-Bonus04"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05-mid-Bonus04"; sourceTree = "<absolute>"; };
+		ABEB9C3B2D602346003650EC /* L07HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW01; sourceTree = "<absolute>"; };
+		ABEB9C3C2D602346003650EC /* L07HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW02; sourceTree = "<absolute>"; };
+		ABEB9C3D2D602346003650EC /* L07HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW03; sourceTree = "<absolute>"; };
+		ABEB9C3E2D602346003650EC /* L07HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L07HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L07HW04; sourceTree = "<absolute>"; };
+		ABEB9C3F2D602346003650EC /* L05mid-Bonux03-x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "L05mid-Bonux03-x"; path = "/Users/lei/Documents/xlearn/fxcamp/build/Debug/L05mid-Bonux03-x"; sourceTree = "<absolute>"; };
+		ABEB9C402D602346003650EC /* L08HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW01; sourceTree = "<absolute>"; };
+		ABEB9C412D602346003650EC /* L08HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW02; sourceTree = "<absolute>"; };
+		ABEB9C422D602346003650EC /* L08HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW03; sourceTree = "<absolute>"; };
+		ABEB9C432D602346003650EC /* L08HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L08HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L08HW04; sourceTree = "<absolute>"; };
+		ABEB9C442D602346003650EC /* L09HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L09HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L09HW01; sourceTree = "<absolute>"; };
+		ABEB9C452D602346003650EC /* L09HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L09HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L09HW02; sourceTree = "<absolute>"; };
+		ABEB9C462D602346003650EC /* L09HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L09HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L09HW03; sourceTree = "<absolute>"; };
+		ABEB9C472D602346003650EC /* L10HW01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW01; sourceTree = "<absolute>"; };
+		ABEB9C482D602346003650EC /* L10HW02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW02; sourceTree = "<absolute>"; };
+		ABEB9C492D602346003650EC /* L10HW03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW03; sourceTree = "<absolute>"; };
+		ABEB9C4A2D602346003650EC /* L10HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW04; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW04; sourceTree = "<absolute>"; };
+		ABEB9C4B2D602346003650EC /* L10HW05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = L10HW05; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/L10HW05; sourceTree = "<absolute>"; };
+		ABEB9C4C2D602346003650EC /* final01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = final01; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/final01; sourceTree = "<absolute>"; };
+		ABEB9C4D2D602346003650EC /* final02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = final02; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/final02; sourceTree = "<absolute>"; };
+		ABEB9C4E2D602346003650EC /* final03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = final03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/final03; sourceTree = "<absolute>"; };
+		ABEB9C4F2D602346003650EC /* finalNew03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = finalNew03; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/finalNew03; sourceTree = "<absolute>"; };
+		ABEB9DA12D6023A2003650EC /* C300L5Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5Q5; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5Q5; sourceTree = "<absolute>"; };
+		ABEB9DAC2D6023B2003650EC /* C300L5Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5Q6; sourceTree = "<absolute>"; };
+		ABEB9DB72D6023C0003650EC /* C300L5Q7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5Q7; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5Q7; sourceTree = "<absolute>"; };
+		ABEB9DC22D6023CB003650EC /* C300L5Q8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5Q8; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5Q8; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -758,6 +798,10 @@
 				C300L4Q4/main.cpp,
 				C300L4Q5/main.cpp,
 				C300L4Q6/main.cpp,
+				C300L5Q5/main.cpp,
+				C300L5Q6/main.cpp,
+				C300L5Q7/main.cpp,
+				C300L5Q8/main.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
@@ -1229,6 +1273,34 @@
 			);
 			target = ABA17B652CAC9EB0000C5050 /* L01HW02 */;
 		};
+		ABEB9DD52D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L5Q5/main.cpp,
+			);
+			target = ABEB9DA02D6023A2003650EC /* C300L5Q5 */;
+		};
+		ABEB9DD62D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q6" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L5Q6/main.cpp,
+			);
+			target = ABEB9DAB2D6023B1003650EC /* C300L5Q6 */;
+		};
+		ABEB9DD72D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q7" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L5Q7/main.cpp,
+			);
+			target = ABEB9DB62D6023C0003650EC /* C300L5Q7 */;
+		};
+		ABEB9DD82D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q8" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L5Q8/main.cpp,
+			);
+			target = ABEB9DC12D6023CB003650EC /* C300L5Q8 */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1245,6 +1317,10 @@
 				AB643E212D533709003EBBBC /* Exceptions for "c300" folder in "C300L4Q4" target */,
 				AB643E222D533709003EBBBC /* Exceptions for "c300" folder in "C300L4Q5" target */,
 				AB643E232D533709003EBBBC /* Exceptions for "c300" folder in "C300L4Q6" target */,
+				ABEB9DD52D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q5" target */,
+				ABEB9DD62D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q6" target */,
+				ABEB9DD72D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q7" target */,
+				ABEB9DD82D6023DC003650EC /* Exceptions for "c300" folder in "C300L5Q8" target */,
 			);
 			path = c300;
 			sourceTree = "<group>";
@@ -1794,6 +1870,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABEB9D9E2D6023A2003650EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9DA92D6023B1003650EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9DB42D6023C0003650EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9DBF2D6023CB003650EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1825,7 +1929,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02EX01;
-			productReference = AB643C872D5336A6003EBBBC /* L02EX01 */;
+			productReference = ABEB9C1E2D602346003650EC /* L02EX01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0021D52CB2137500D359C6 /* L02EX02 */ = {
@@ -1844,7 +1948,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02EX02;
-			productReference = AB643C882D5336A6003EBBBC /* L02EX02 */;
+			productReference = ABEB9C1F2D602346003650EC /* L02EX02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0021E52CB2279900D359C6 /* L02HW01 */ = {
@@ -1863,7 +1967,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02HW01;
-			productReference = AB643C892D5336A6003EBBBC /* L02HW01 */;
+			productReference = ABEB9C202D602346003650EC /* L02HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0021F42CB227AC00D359C6 /* L02HW02 */ = {
@@ -1882,7 +1986,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02HW02;
-			productReference = AB643C8A2D5336A6003EBBBC /* L02HW02 */;
+			productReference = ABEB9C212D602346003650EC /* L02HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0021FF2CB227BB00D359C6 /* L02HW03 */ = {
@@ -1901,7 +2005,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02HW03;
-			productReference = AB643C8B2D5336A6003EBBBC /* L02HW03 */;
+			productReference = ABEB9C222D602346003650EC /* L02HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0022152CB228A400D359C6 /* L02HW04 */ = {
@@ -1920,7 +2024,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02HW04;
-			productReference = AB643C8C2D5336A6003EBBBC /* L02HW04 */;
+			productReference = ABEB9C232D602346003650EC /* L02HW04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0022202CB228B200D359C6 /* L02HW05 */ = {
@@ -1939,7 +2043,7 @@
 			packageProductDependencies = (
 			);
 			productName = L02HW05;
-			productReference = AB643C8D2D5336A6003EBBBC /* L02HW05 */;
+			productReference = ABEB9C242D602346003650EC /* L02HW05 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0409C02CACBE9700FAE9B3 /* L01HW03 */ = {
@@ -1958,7 +2062,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01HW03;
-			productReference = AB643C852D5336A6003EBBBC /* L01HW03 */;
+			productReference = ABEB9C1C2D602346003650EC /* L01HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB0409D02CADEFCC00FAE9B3 /* L01EX03 */ = {
@@ -1977,7 +2081,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01EX03;
-			productReference = AB643C862D5336A6003EBBBC /* L01EX03 */;
+			productReference = ABEB9C1D2D602346003650EC /* L01EX03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB047B642D3F537E0047590F /* C300L2Q4 */ = {
@@ -1996,7 +2100,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L2Q4;
-			productReference = AB643C7A2D5336A6003EBBBC /* C300L2Q4 */;
+			productReference = ABEB9C0E2D602346003650EC /* C300L2Q4 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB047B6F2D3F53960047590F /* C300L2Q5 */ = {
@@ -2015,7 +2119,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L2Q5;
-			productReference = AB643C7B2D5336A6003EBBBC /* C300L2Q5 */;
+			productReference = ABEB9C0F2D602346003650EC /* C300L2Q5 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB047B7A2D3F53A50047590F /* C300L2Q6 */ = {
@@ -2034,7 +2138,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L2Q6;
-			productReference = AB643C7C2D5336A6003EBBBC /* C300L2Q6 */;
+			productReference = ABEB9C102D602346003650EC /* C300L2Q6 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E86902CBB678C00B23B52 /* L03HW01 */ = {
@@ -2053,7 +2157,7 @@
 			packageProductDependencies = (
 			);
 			productName = L03HW01;
-			productReference = AB643C8E2D5336A6003EBBBC /* L03HW01 */;
+			productReference = ABEB9C252D602346003650EC /* L03HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E869B2CBB67A200B23B52 /* L03HW02 */ = {
@@ -2072,7 +2176,7 @@
 			packageProductDependencies = (
 			);
 			productName = L03HW02;
-			productReference = AB643C8F2D5336A6003EBBBC /* L03HW02 */;
+			productReference = ABEB9C262D602346003650EC /* L03HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E86A62CBB67B000B23B52 /* L03HW03 */ = {
@@ -2091,7 +2195,7 @@
 			packageProductDependencies = (
 			);
 			productName = L03HW03;
-			productReference = AB643C902D5336A6003EBBBC /* L03HW03 */;
+			productReference = ABEB9C272D602346003650EC /* L03HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E86B12CBB67C300B23B52 /* L03HW04 */ = {
@@ -2110,7 +2214,7 @@
 			packageProductDependencies = (
 			);
 			productName = L03HW04;
-			productReference = AB643C912D5336A6003EBBBC /* L03HW04 */;
+			productReference = ABEB9C282D602346003650EC /* L03HW04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E86D12CBB8FE400B23B52 /* L03EX01 */ = {
@@ -2129,7 +2233,7 @@
 			packageProductDependencies = (
 			);
 			productName = L03EX01;
-			productReference = AB643C922D5336A6003EBBBC /* L03EX01 */;
+			productReference = ABEB9C292D602346003650EC /* L03EX01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E874F2CBC766900B23B52 /* 01class */ = {
@@ -2148,7 +2252,7 @@
 			packageProductDependencies = (
 			);
 			productName = 01class;
-			productReference = AB643C802D5336A6003EBBBC /* 01class */;
+			productReference = ABEB9C172D602346003650EC /* 01class */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E97D62CD841ED00CC6701 /* L06HW01 */ = {
@@ -2167,7 +2271,7 @@
 			packageProductDependencies = (
 			);
 			productName = L06HW01;
-			productReference = AB643C9D2D5336A6003EBBBC /* L06HW01 */;
+			productReference = ABEB9C342D602346003650EC /* L06HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E97E12CD8420400CC6701 /* L06HW02 */ = {
@@ -2186,7 +2290,7 @@
 			packageProductDependencies = (
 			);
 			productName = L06HW02;
-			productReference = AB643C9E2D5336A6003EBBBC /* L06HW02 */;
+			productReference = ABEB9C352D602346003650EC /* L06HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E97EC2CD8421200CC6701 /* L06HW03 */ = {
@@ -2205,7 +2309,7 @@
 			packageProductDependencies = (
 			);
 			productName = L06HW03;
-			productReference = AB643C9F2D5336A6003EBBBC /* L06HW03 */;
+			productReference = ABEB9C362D602346003650EC /* L06HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB1E98042CD87AE600CC6701 /* temp */ = {
@@ -2224,7 +2328,7 @@
 			packageProductDependencies = (
 			);
 			productName = temp;
-			productReference = AB643C812D5336A6003EBBBC /* temp */;
+			productReference = ABEB9C182D602346003650EC /* temp */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB241E142CF426F2001B9EFF /* L09HW01 */ = {
@@ -2243,7 +2347,7 @@
 			packageProductDependencies = (
 			);
 			productName = L09HW01;
-			productReference = AB643CAD2D5336A6003EBBBC /* L09HW01 */;
+			productReference = ABEB9C442D602346003650EC /* L09HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB241E1F2CF426FC001B9EFF /* L09HW02 */ = {
@@ -2262,7 +2366,7 @@
 			packageProductDependencies = (
 			);
 			productName = L09HW02;
-			productReference = AB643CAE2D5336A6003EBBBC /* L09HW02 */;
+			productReference = ABEB9C452D602346003650EC /* L09HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB241E2A2CF4270C001B9EFF /* L09HW03 */ = {
@@ -2281,7 +2385,7 @@
 			packageProductDependencies = (
 			);
 			productName = L09HW03;
-			productReference = AB643CAF2D5336A6003EBBBC /* L09HW03 */;
+			productReference = ABEB9C462D602346003650EC /* L09HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643BCA2D4E7D0E003EBBBC /* C300L3Q6 */ = {
@@ -2300,7 +2404,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L3Q6;
-			productReference = AB643C7D2D5336A6003EBBBC /* C300L3Q6 */;
+			productReference = ABEB9C112D602346003650EC /* C300L3Q6 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643BD52D4E7D1C003EBBBC /* C300L3Q7 */ = {
@@ -2319,7 +2423,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L3Q7;
-			productReference = AB643C7E2D5336A6003EBBBC /* C300L3Q7 */;
+			productReference = ABEB9C122D602346003650EC /* C300L3Q7 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643BE02D4E7D29003EBBBC /* C300L3Q8 */ = {
@@ -2338,7 +2442,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L3Q8;
-			productReference = AB643C7F2D5336A6003EBBBC /* C300L3Q8 */;
+			productReference = ABEB9C132D602346003650EC /* C300L3Q8 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643DFA2D5336D9003EBBBC /* C300L4Q4 */ = {
@@ -2357,7 +2461,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L4Q4;
-			productReference = AB643DFB2D5336D9003EBBBC /* C300L4Q4 */;
+			productReference = ABEB9C142D602346003650EC /* C300L4Q4 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643E052D5336E9003EBBBC /* C300L4Q5 */ = {
@@ -2376,7 +2480,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L4Q5;
-			productReference = AB643E062D5336E9003EBBBC /* C300L4Q5 */;
+			productReference = ABEB9C152D602346003650EC /* C300L4Q5 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643E102D5336FD003EBBBC /* C300L4Q6 */ = {
@@ -2395,7 +2499,7 @@
 			packageProductDependencies = (
 			);
 			productName = C300L4Q6;
-			productReference = AB643E112D5336FD003EBBBC /* C300L4Q6 */;
+			productReference = ABEB9C162D602346003650EC /* C300L4Q6 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB6E9D612CC584440015C52F /* L04HW01 */ = {
@@ -2414,7 +2518,7 @@
 			packageProductDependencies = (
 			);
 			productName = L04HW01;
-			productReference = AB643C932D5336A6003EBBBC /* L04HW01 */;
+			productReference = ABEB9C2A2D602346003650EC /* L04HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB6E9D6C2CC584510015C52F /* L04HW02 */ = {
@@ -2433,7 +2537,7 @@
 			packageProductDependencies = (
 			);
 			productName = L04HW02;
-			productReference = AB643C942D5336A6003EBBBC /* L04HW02 */;
+			productReference = ABEB9C2B2D602346003650EC /* L04HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB6E9D772CC5845C0015C52F /* L04HW03 */ = {
@@ -2452,7 +2556,7 @@
 			packageProductDependencies = (
 			);
 			productName = L04HW03;
-			productReference = AB643C952D5336A6003EBBBC /* L04HW03 */;
+			productReference = ABEB9C2C2D602346003650EC /* L04HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB6E9D822CC5846B0015C52F /* L04HW04 */ = {
@@ -2471,7 +2575,7 @@
 			packageProductDependencies = (
 			);
 			productName = L04HW04;
-			productReference = AB643C962D5336A6003EBBBC /* L04HW04 */;
+			productReference = ABEB9C2D2D602346003650EC /* L04HW04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB9164F22D1772DA00A22B04 /* final01 */ = {
@@ -2490,7 +2594,7 @@
 			packageProductDependencies = (
 			);
 			productName = final01;
-			productReference = AB643CB52D5336A6003EBBBC /* final01 */;
+			productReference = ABEB9C4C2D602346003650EC /* final01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB9164FD2D1772E700A22B04 /* final02 */ = {
@@ -2509,7 +2613,7 @@
 			packageProductDependencies = (
 			);
 			productName = final02;
-			productReference = AB643CB62D5336A6003EBBBC /* final02 */;
+			productReference = ABEB9C4D2D602346003650EC /* final02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB9165082D1772F900A22B04 /* final03 */ = {
@@ -2528,7 +2632,7 @@
 			packageProductDependencies = (
 			);
 			productName = final03;
-			productReference = AB643CB72D5336A6003EBBBC /* final03 */;
+			productReference = ABEB9C4E2D602346003650EC /* final03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB9165222D19301D00A22B04 /* finalNew03 */ = {
@@ -2547,7 +2651,7 @@
 			packageProductDependencies = (
 			);
 			productName = finalNew03;
-			productReference = AB643CB82D5336A6003EBBBC /* finalNew03 */;
+			productReference = ABEB9C4F2D602346003650EC /* finalNew03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B3A2CAC9D6F000C5050 /* L01EX01 */ = {
@@ -2571,7 +2675,7 @@
 			packageProductDependencies = (
 			);
 			productName = xcamp;
-			productReference = AB643C792D5336A6003EBBBC /* L01EX01 */;
+			productReference = ABEB9C0D2D602346003650EC /* L01EX01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B4F2CAC9E70000C5050 /* L01EX02 */ = {
@@ -2590,7 +2694,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01EX02;
-			productReference = AB643C822D5336A6003EBBBC /* L01EX02 */;
+			productReference = ABEB9C192D602346003650EC /* L01EX02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B5A2CAC9EA2000C5050 /* L01HW01 */ = {
@@ -2609,7 +2713,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01HW01;
-			productReference = AB643C832D5336A6003EBBBC /* L01HW01 */;
+			productReference = ABEB9C1A2D602346003650EC /* L01HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA17B652CAC9EB0000C5050 /* L01HW02 */ = {
@@ -2628,7 +2732,7 @@
 			packageProductDependencies = (
 			);
 			productName = L01HW02;
-			productReference = AB643C842D5336A6003EBBBC /* L01HW02 */;
+			productReference = ABEB9C1B2D602346003650EC /* L01HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA440BE2D06CC1600AAE4DE /* L10HW01 */ = {
@@ -2647,7 +2751,7 @@
 			packageProductDependencies = (
 			);
 			productName = L10HW01;
-			productReference = AB643CB02D5336A6003EBBBC /* L10HW01 */;
+			productReference = ABEB9C472D602346003650EC /* L10HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA440C92D06CC3200AAE4DE /* L10HW02 */ = {
@@ -2666,7 +2770,7 @@
 			packageProductDependencies = (
 			);
 			productName = L10HW02;
-			productReference = AB643CB12D5336A6003EBBBC /* L10HW02 */;
+			productReference = ABEB9C482D602346003650EC /* L10HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA440D42D06CC4500AAE4DE /* L10HW03 */ = {
@@ -2685,7 +2789,7 @@
 			packageProductDependencies = (
 			);
 			productName = L10HW03;
-			productReference = AB643CB22D5336A6003EBBBC /* L10HW03 */;
+			productReference = ABEB9C492D602346003650EC /* L10HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA440DF2D06CC5100AAE4DE /* L10HW04 */ = {
@@ -2704,7 +2808,7 @@
 			packageProductDependencies = (
 			);
 			productName = L10HW04;
-			productReference = AB643CB32D5336A6003EBBBC /* L10HW04 */;
+			productReference = ABEB9C4A2D602346003650EC /* L10HW04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABA440EA2D06CC5A00AAE4DE /* L10HW05 */ = {
@@ -2723,7 +2827,7 @@
 			packageProductDependencies = (
 			);
 			productName = L10HW05;
-			productReference = AB643CB42D5336A6003EBBBC /* L10HW05 */;
+			productReference = ABEB9C4B2D602346003650EC /* L10HW05 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABAFB4EC2CCF11610098D51A /* L05EX01 */ = {
@@ -2742,7 +2846,7 @@
 			packageProductDependencies = (
 			);
 			productName = L05EX01;
-			productReference = AB643C972D5336A6003EBBBC /* L05EX01 */;
+			productReference = ABEB9C2E2D602346003650EC /* L05EX01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABAFB4F72CCF11740098D51A /* L05HW01 */ = {
@@ -2761,7 +2865,7 @@
 			packageProductDependencies = (
 			);
 			productName = L05HW01;
-			productReference = AB643C982D5336A6003EBBBC /* L05HW01 */;
+			productReference = ABEB9C2F2D602346003650EC /* L05HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABAFB5022CCF118C0098D51A /* L05HW02 */ = {
@@ -2780,7 +2884,7 @@
 			packageProductDependencies = (
 			);
 			productName = L05HW02;
-			productReference = AB643C992D5336A6003EBBBC /* L05HW02 */;
+			productReference = ABEB9C302D602346003650EC /* L05HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABAFB50D2CCF119C0098D51A /* L05HW03 */ = {
@@ -2799,7 +2903,7 @@
 			packageProductDependencies = (
 			);
 			productName = L05HW03;
-			productReference = AB643C9B2D5336A6003EBBBC /* L05HW03 */;
+			productReference = ABEB9C322D602346003650EC /* L05HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABAFB5182CCF11AB0098D51A /* L05HW04 */ = {
@@ -2818,7 +2922,7 @@
 			packageProductDependencies = (
 			);
 			productName = L05HW04;
-			productReference = AB643C9C2D5336A6003EBBBC /* L05HW04 */;
+			productReference = ABEB9C332D602346003650EC /* L05HW04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AC8B2CE0145500E39AE7 /* L06EX01 */ = {
@@ -2837,7 +2941,7 @@
 			packageProductDependencies = (
 			);
 			productName = L06EX01;
-			productReference = AB643CA02D5336A6003EBBBC /* L06EX01 */;
+			productReference = ABEB9C372D602346003650EC /* L06EX01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AC9B2CE0616100E39AE7 /* L05-mid-Bonus01 */ = {
@@ -2856,7 +2960,7 @@
 			packageProductDependencies = (
 			);
 			productName = "L05-mid-Bonus";
-			productReference = AB643C9A2D5336A6003EBBBC /* L05-mid-Bonus01 */;
+			productReference = ABEB9C312D602346003650EC /* L05-mid-Bonus01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9ADFA2CE0671800E39AE7 /* L05-mid-Bonus02 */ = {
@@ -2875,7 +2979,7 @@
 			packageProductDependencies = (
 			);
 			productName = "L05-mid-Bonus02";
-			productReference = AB643CA12D5336A6003EBBBC /* L05-mid-Bonus02 */;
+			productReference = ABEB9C382D602346003650EC /* L05-mid-Bonus02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AE052CE0672500E39AE7 /* L05-mid-Bonus03 */ = {
@@ -2894,7 +2998,7 @@
 			packageProductDependencies = (
 			);
 			productName = "L05-mid-Bonus03";
-			productReference = AB643CA22D5336A6003EBBBC /* L05-mid-Bonus03 */;
+			productReference = ABEB9C392D602346003650EC /* L05-mid-Bonus03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AE102CE0673200E39AE7 /* L05-mid-Bonus04 */ = {
@@ -2913,7 +3017,7 @@
 			packageProductDependencies = (
 			);
 			productName = "L05-mid-Bonus04";
-			productReference = AB643CA32D5336A6003EBBBC /* L05-mid-Bonus04 */;
+			productReference = ABEB9C3A2D602346003650EC /* L05-mid-Bonus04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AEE22CE26A2700E39AE7 /* L07HW01 */ = {
@@ -2932,7 +3036,7 @@
 			packageProductDependencies = (
 			);
 			productName = L07HW01;
-			productReference = AB643CA42D5336A6003EBBBC /* L07HW01 */;
+			productReference = ABEB9C3B2D602346003650EC /* L07HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AEED2CE26A3600E39AE7 /* L07HW02 */ = {
@@ -2951,7 +3055,7 @@
 			packageProductDependencies = (
 			);
 			productName = L07HW02;
-			productReference = AB643CA52D5336A6003EBBBC /* L07HW02 */;
+			productReference = ABEB9C3C2D602346003650EC /* L07HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AEF82CE26A4100E39AE7 /* L07HW03 */ = {
@@ -2970,7 +3074,7 @@
 			packageProductDependencies = (
 			);
 			productName = L07HW03;
-			productReference = AB643CA62D5336A6003EBBBC /* L07HW03 */;
+			productReference = ABEB9C3D2D602346003650EC /* L07HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AF032CE26A4E00E39AE7 /* L07HW04 */ = {
@@ -2989,7 +3093,7 @@
 			packageProductDependencies = (
 			);
 			productName = L07HW04;
-			productReference = AB643CA72D5336A6003EBBBC /* L07HW04 */;
+			productReference = ABEB9C3E2D602346003650EC /* L07HW04 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AF242CE98B9C00E39AE7 /* L05mid-Bonux03-x */ = {
@@ -3008,7 +3112,7 @@
 			packageProductDependencies = (
 			);
 			productName = "L05mid-Bonux03-x";
-			productReference = AB643CA82D5336A6003EBBBC /* L05mid-Bonux03-x */;
+			productReference = ABEB9C3F2D602346003650EC /* L05mid-Bonux03-x */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AF332CE9946000E39AE7 /* L08HW01 */ = {
@@ -3027,7 +3131,7 @@
 			packageProductDependencies = (
 			);
 			productName = L08HW01;
-			productReference = AB643CA92D5336A6003EBBBC /* L08HW01 */;
+			productReference = ABEB9C402D602346003650EC /* L08HW01 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AF3E2CE9946D00E39AE7 /* L08HW02 */ = {
@@ -3046,7 +3150,7 @@
 			packageProductDependencies = (
 			);
 			productName = L08HW02;
-			productReference = AB643CAA2D5336A6003EBBBC /* L08HW02 */;
+			productReference = ABEB9C412D602346003650EC /* L08HW02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AF492CE9947600E39AE7 /* L08HW03 */ = {
@@ -3065,7 +3169,7 @@
 			packageProductDependencies = (
 			);
 			productName = L08HW03;
-			productReference = AB643CAB2D5336A6003EBBBC /* L08HW03 */;
+			productReference = ABEB9C422D602346003650EC /* L08HW03 */;
 			productType = "com.apple.product-type.tool";
 		};
 		ABB9AF542CE9947F00E39AE7 /* L08HW04 */ = {
@@ -3084,7 +3188,83 @@
 			packageProductDependencies = (
 			);
 			productName = L08HW04;
-			productReference = AB643CAC2D5336A6003EBBBC /* L08HW04 */;
+			productReference = ABEB9C432D602346003650EC /* L08HW04 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABEB9DA02D6023A2003650EC /* C300L5Q5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEB9DA52D6023A2003650EC /* Build configuration list for PBXNativeTarget "C300L5Q5" */;
+			buildPhases = (
+				ABEB9D9D2D6023A2003650EC /* Sources */,
+				ABEB9D9E2D6023A2003650EC /* Frameworks */,
+				ABEB9D9F2D6023A2003650EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L5Q5;
+			packageProductDependencies = (
+			);
+			productName = C300L5Q5;
+			productReference = ABEB9DA12D6023A2003650EC /* C300L5Q5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABEB9DAB2D6023B1003650EC /* C300L5Q6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEB9DB02D6023B2003650EC /* Build configuration list for PBXNativeTarget "C300L5Q6" */;
+			buildPhases = (
+				ABEB9DA82D6023B1003650EC /* Sources */,
+				ABEB9DA92D6023B1003650EC /* Frameworks */,
+				ABEB9DAA2D6023B1003650EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L5Q6;
+			packageProductDependencies = (
+			);
+			productName = C300L5Q6;
+			productReference = ABEB9DAC2D6023B2003650EC /* C300L5Q6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABEB9DB62D6023C0003650EC /* C300L5Q7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEB9DBB2D6023C0003650EC /* Build configuration list for PBXNativeTarget "C300L5Q7" */;
+			buildPhases = (
+				ABEB9DB32D6023C0003650EC /* Sources */,
+				ABEB9DB42D6023C0003650EC /* Frameworks */,
+				ABEB9DB52D6023C0003650EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L5Q7;
+			packageProductDependencies = (
+			);
+			productName = C300L5Q7;
+			productReference = ABEB9DB72D6023C0003650EC /* C300L5Q7 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ABEB9DC12D6023CB003650EC /* C300L5Q8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEB9DC62D6023CB003650EC /* Build configuration list for PBXNativeTarget "C300L5Q8" */;
+			buildPhases = (
+				ABEB9DBE2D6023CB003650EC /* Sources */,
+				ABEB9DBF2D6023CB003650EC /* Frameworks */,
+				ABEB9DC02D6023CB003650EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L5Q8;
+			packageProductDependencies = (
+			);
+			productName = C300L5Q8;
+			productReference = ABEB9DC22D6023CB003650EC /* C300L5Q8 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -3297,6 +3477,18 @@
 					ABB9AF542CE9947F00E39AE7 = {
 						CreatedOnToolsVersion = 16.0;
 					};
+					ABEB9DA02D6023A2003650EC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABEB9DAB2D6023B1003650EC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABEB9DB62D6023C0003650EC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ABEB9DC12D6023CB003650EC = {
+						CreatedOnToolsVersion = 16.0;
+					};
 				};
 			};
 			buildConfigurationList = ABA17B362CAC9D6F000C5050 /* Build configuration list for PBXProject "xcamp" */;
@@ -3380,6 +3572,10 @@
 				AB643DFA2D5336D9003EBBBC /* C300L4Q4 */,
 				AB643E052D5336E9003EBBBC /* C300L4Q5 */,
 				AB643E102D5336FD003EBBBC /* C300L4Q6 */,
+				ABEB9DA02D6023A2003650EC /* C300L5Q5 */,
+				ABEB9DAB2D6023B1003650EC /* C300L5Q6 */,
+				ABEB9DB62D6023C0003650EC /* C300L5Q7 */,
+				ABEB9DC12D6023CB003650EC /* C300L5Q8 */,
 			);
 		};
 /* End PBXProject section */
@@ -3848,6 +4044,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABB9AF512CE9947F00E39AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9D9D2D6023A2003650EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9DA82D6023B1003650EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9DB32D6023C0003650EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB9DBE2D6023CB003650EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5046,6 +5270,70 @@
 			};
 			name = Release;
 		};
+		ABEB9DA62D6023A2003650EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABEB9DA72D6023A2003650EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABEB9DB12D6023B2003650EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABEB9DB22D6023B2003650EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABEB9DBC2D6023C0003650EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABEB9DBD2D6023C0003650EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABEB9DC72D6023CB003650EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABEB9DC82D6023CB003650EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5657,6 +5945,42 @@
 			buildConfigurations = (
 				ABB9AF5A2CE9948000E39AE7 /* Debug */,
 				ABB9AF5B2CE9948000E39AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEB9DA52D6023A2003650EC /* Build configuration list for PBXNativeTarget "C300L5Q5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEB9DA62D6023A2003650EC /* Debug */,
+				ABEB9DA72D6023A2003650EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEB9DB02D6023B2003650EC /* Build configuration list for PBXNativeTarget "C300L5Q6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEB9DB12D6023B2003650EC /* Debug */,
+				ABEB9DB22D6023B2003650EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEB9DBB2D6023C0003650EC /* Build configuration list for PBXNativeTarget "C300L5Q7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEB9DBC2D6023C0003650EC /* Debug */,
+				ABEB9DBD2D6023C0003650EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEB9DC62D6023CB003650EC /* Build configuration list for PBXNativeTarget "C300L5Q8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEB9DC72D6023CB003650EC /* Debug */,
+				ABEB9DC82D6023CB003650EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,7 +14,26 @@
          contextName = "possible:Letters.cpp">
       </ContextState>
       <ContextState
-         contextName = "main:EscapeMaze.cpp">
+         contextName = "main::$_1::operator()() const:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "rnext-l">
+            </PersistentString>
+            <PersistentString
+               value = "l">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "bloodfill:EscapeMaze.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "maze[x][y]!=&apos;.&apos;">
+            </PersistentString>
+            <PersistentString
+               value = "maze[x][y]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "main:where-am-I.cpp">
@@ -28,17 +47,6 @@
          contextName = "main:PoolCounting.cpp">
       </ContextState>
       <ContextState
-         contextName = "bloodfill:EscapeMaze.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "maze[x][y]">
-            </PersistentString>
-            <PersistentString
-               value = "maze[x][y]!=&apos;.&apos;">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "bloodfill:Letters.cpp">
          <PersistentStrings>
             <PersistentString
@@ -48,6 +56,9 @@
                value = "maze[x][y]">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:EscapeMaze.cpp">
       </ContextState>
       <ContextState
          contextName = "handleQueue:chess8.cpp">
