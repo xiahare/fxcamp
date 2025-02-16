@@ -12,43 +12,36 @@ int main(int argc, const char * argv[]) {
     }
     sort(a.begin(),a.end());
     
+    vector<int> preMax(n), win(n);
     int l=0,r=0;
-    int res_max_length1 = 0;
     int maxl=0,maxr=0;
     while(r<n){
         if(a[r]-a[l]<=k){
-            if(r-l+1>res_max_length1){
-                maxl=l;
-                maxr=r;
-                res_max_length1 = r-l+1;
-            }
+            win[r] = max(win[r],r-l+1);
             r++;
         } else {
             l++;
         }
     }
-    vector<int> b;
-    for(int i=0;i<a.size();i++){
-        if(i<maxl || i>maxr){
-            b.push_back(a[i]);
-        }
-    }
-    int l2=0,r2=0;
-    int res_max_length2 = 0;
 
-    while(r2<b.size()){
-        if(b[r2]-b[l2]<=k){
-            if(r2-l2+1>res_max_length2){
-
-                res_max_length2 = r2-l2+1;
-            }
-            r2++;
-        } else {
-            l2++;
-        }
+    preMax[0] = win[0];
+    for(int i =1; i<n ; i++){
+        preMax[i] = max(preMax[i-1],win[i]);
     }
     
-    cout << res_max_length1+res_max_length2 << endl;
+    int twoMax = 0;
+    for(int i =1; i<n ; i++){
+        int currWin = win[i];
+        
+        int preMaxWin = (i-currWin)<0? 0: preMax[i-currWin];
+        
+        twoMax = max( twoMax, currWin+preMaxWin);
+        
+        
+    }
+    
+    
+    cout << twoMax << endl;
     return 0;
 }
 
