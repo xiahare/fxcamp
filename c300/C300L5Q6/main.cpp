@@ -39,7 +39,7 @@ int main() {
             break;
         }
         if(l-1>=1){
-            ms.erase(p[l-1]);
+            ms.erase(ms.find(p[l-1])); // there was a bug here if ms.erase(p[l-1]), it will remove all p[l-1]
         }
         if(r<=n){
             ms.insert(p[r]);
