@@ -104,18 +104,49 @@
 		</dict>
 		<key>C300L5ZBonusQ1.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>71</integer>
 		</dict>
 		<key>C300L5ZBonusQ2.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>72</integer>
 		</dict>
 		<key>C300L5ZBonusQ3.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>73</integer>
+		</dict>
+		<key>C300L6Q4.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
+		<key>C300L6Q5.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
+		<key>C300L6Q6.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
+		<key>C300L6Q7.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>C300L6Q8.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
 		</dict>
 		<key>L01EX01.xcscheme_^#shared#^_</key>
 		<dict>
@@ -650,6 +681,21 @@
 			<true/>
 		</dict>
 		<key>AB241E2A2CF4270C001B9EFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB45CAA32D64D8E9009E1D72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB45CAAE2D64D8F9009E1D72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB45CAB92D64D906009E1D72</key>
 		<dict>
 			<key>primary</key>
 			<true/>

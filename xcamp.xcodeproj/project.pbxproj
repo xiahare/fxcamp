@@ -259,6 +259,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		AB45CAD22D66E666009E1D72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB45CADD2D66E67F009E1D72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB45CAE82D66E693009E1D72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB45CAF32D66E6A2009E1D72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AB45CAFE2D66E6B9009E1D72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		AB643BC92D4E7D0E003EBBBC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -750,6 +795,11 @@
 		AB45CAA42D64D8E9009E1D72 /* C300L5ZBonusQ1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5ZBonusQ1; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5ZBonusQ1; sourceTree = "<absolute>"; };
 		AB45CAAF2D64D8F9009E1D72 /* C300L5ZBonusQ2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5ZBonusQ2; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5ZBonusQ2; sourceTree = "<absolute>"; };
 		AB45CABA2D64D906009E1D72 /* C300L5ZBonusQ3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L5ZBonusQ3; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L5ZBonusQ3; sourceTree = "<absolute>"; };
+		AB45CAD42D66E666009E1D72 /* C300L6Q4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L6Q4; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L6Q4; sourceTree = "<absolute>"; };
+		AB45CADF2D66E67F009E1D72 /* C300L6Q5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L6Q5; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L6Q5; sourceTree = "<absolute>"; };
+		AB45CAEA2D66E693009E1D72 /* C300L6Q6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L6Q6; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L6Q6; sourceTree = "<absolute>"; };
+		AB45CAF52D66E6A2009E1D72 /* C300L6Q7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L6Q7; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L6Q7; sourceTree = "<absolute>"; };
+		AB45CB002D66E6B9009E1D72 /* C300L6Q8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = C300L6Q8; path = /Users/lei/Documents/xlearn/fxcamp/build/Debug/C300L6Q8; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -835,6 +885,11 @@
 				C300L5ZBonusQ1/main.cpp,
 				C300L5ZBonusQ2/main.cpp,
 				C300L5ZBonusQ3/main.cpp,
+				C300L6Q4/main.cpp,
+				C300L6Q5/main.cpp,
+				C300L6Q6/main.cpp,
+				C300L6Q7/main.cpp,
+				C300L6Q8/main.cpp,
 			);
 			target = ABA17B3A2CAC9D6F000C5050 /* L01EX01 */;
 		};
@@ -978,6 +1033,41 @@
 				C300L5ZBonusQ3/main.cpp,
 			);
 			target = AB45CAB92D64D906009E1D72 /* C300L5ZBonusQ3 */;
+		};
+		AB45CB162D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q4" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L6Q4/main.cpp,
+			);
+			target = AB45CAD32D66E666009E1D72 /* C300L6Q4 */;
+		};
+		AB45CB172D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L6Q5/main.cpp,
+			);
+			target = AB45CADE2D66E67F009E1D72 /* C300L6Q5 */;
+		};
+		AB45CB182D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q6" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L6Q6/main.cpp,
+			);
+			target = AB45CAE92D66E693009E1D72 /* C300L6Q6 */;
+		};
+		AB45CB192D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q7" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L6Q7/main.cpp,
+			);
+			target = AB45CAF42D66E6A2009E1D72 /* C300L6Q7 */;
+		};
+		AB45CB1A2D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q8" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				C300L6Q8/main.cpp,
+			);
+			target = AB45CAFF2D66E6B9009E1D72 /* C300L6Q8 */;
 		};
 		AB643BF12D4E7D33003EBBBC /* Exceptions for "c300" folder in "C300L3Q6" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -1378,6 +1468,11 @@
 				AB45CACA2D64D91C009E1D72 /* Exceptions for "c300" folder in "C300L5ZBonusQ1" target */,
 				AB45CACB2D64D91C009E1D72 /* Exceptions for "c300" folder in "C300L5ZBonusQ2" target */,
 				AB45CACC2D64D91C009E1D72 /* Exceptions for "c300" folder in "C300L5ZBonusQ3" target */,
+				AB45CB162D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q4" target */,
+				AB45CB172D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q5" target */,
+				AB45CB182D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q6" target */,
+				AB45CB192D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q7" target */,
+				AB45CB1A2D66E6C6009E1D72 /* Exceptions for "c300" folder in "C300L6Q8" target */,
 			);
 			path = c300;
 			sourceTree = "<group>";
@@ -1648,6 +1743,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AB45CAB72D64D906009E1D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAD12D66E666009E1D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CADC2D66E67F009E1D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAE72D66E693009E1D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAF22D66E6A2009E1D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAFD2D66E6B9009E1D72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2521,6 +2651,101 @@
 			);
 			productName = C300L5ZBonusQ3;
 			productReference = AB45CABA2D64D906009E1D72 /* C300L5ZBonusQ3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB45CAD32D66E666009E1D72 /* C300L6Q4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45CAD82D66E666009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q4" */;
+			buildPhases = (
+				AB45CAD02D66E666009E1D72 /* Sources */,
+				AB45CAD12D66E666009E1D72 /* Frameworks */,
+				AB45CAD22D66E666009E1D72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L6Q4;
+			packageProductDependencies = (
+			);
+			productName = C300L6Q4;
+			productReference = AB45CAD42D66E666009E1D72 /* C300L6Q4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB45CADE2D66E67F009E1D72 /* C300L6Q5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45CAE32D66E67F009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q5" */;
+			buildPhases = (
+				AB45CADB2D66E67F009E1D72 /* Sources */,
+				AB45CADC2D66E67F009E1D72 /* Frameworks */,
+				AB45CADD2D66E67F009E1D72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L6Q5;
+			packageProductDependencies = (
+			);
+			productName = C300L6Q5;
+			productReference = AB45CADF2D66E67F009E1D72 /* C300L6Q5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB45CAE92D66E693009E1D72 /* C300L6Q6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45CAEE2D66E693009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q6" */;
+			buildPhases = (
+				AB45CAE62D66E693009E1D72 /* Sources */,
+				AB45CAE72D66E693009E1D72 /* Frameworks */,
+				AB45CAE82D66E693009E1D72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L6Q6;
+			packageProductDependencies = (
+			);
+			productName = C300L6Q6;
+			productReference = AB45CAEA2D66E693009E1D72 /* C300L6Q6 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB45CAF42D66E6A2009E1D72 /* C300L6Q7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45CAF92D66E6A2009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q7" */;
+			buildPhases = (
+				AB45CAF12D66E6A2009E1D72 /* Sources */,
+				AB45CAF22D66E6A2009E1D72 /* Frameworks */,
+				AB45CAF32D66E6A2009E1D72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L6Q7;
+			packageProductDependencies = (
+			);
+			productName = C300L6Q7;
+			productReference = AB45CAF52D66E6A2009E1D72 /* C300L6Q7 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AB45CAFF2D66E6B9009E1D72 /* C300L6Q8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB45CB042D66E6B9009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q8" */;
+			buildPhases = (
+				AB45CAFC2D66E6B9009E1D72 /* Sources */,
+				AB45CAFD2D66E6B9009E1D72 /* Frameworks */,
+				AB45CAFE2D66E6B9009E1D72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C300L6Q8;
+			packageProductDependencies = (
+			);
+			productName = C300L6Q8;
+			productReference = AB45CB002D66E6B9009E1D72 /* C300L6Q8 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AB643BCA2D4E7D0E003EBBBC /* C300L3Q6 */ = {
@@ -3495,6 +3720,21 @@
 					AB45CAB92D64D906009E1D72 = {
 						CreatedOnToolsVersion = 16.0;
 					};
+					AB45CAD32D66E666009E1D72 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AB45CADE2D66E67F009E1D72 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AB45CAE92D66E693009E1D72 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AB45CAF42D66E6A2009E1D72 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AB45CAFF2D66E6B9009E1D72 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					AB643BCA2D4E7D0E003EBBBC = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -3723,6 +3963,11 @@
 				AB45CAA32D64D8E9009E1D72 /* C300L5ZBonusQ1 */,
 				AB45CAAE2D64D8F9009E1D72 /* C300L5ZBonusQ2 */,
 				AB45CAB92D64D906009E1D72 /* C300L5ZBonusQ3 */,
+				AB45CAD32D66E666009E1D72 /* C300L6Q4 */,
+				AB45CADE2D66E67F009E1D72 /* C300L6Q5 */,
+				AB45CAE92D66E693009E1D72 /* C300L6Q6 */,
+				AB45CAF42D66E6A2009E1D72 /* C300L6Q7 */,
+				AB45CAFF2D66E6B9009E1D72 /* C300L6Q8 */,
 			);
 		};
 /* End PBXProject section */
@@ -3918,6 +4163,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AB45CAB62D64D906009E1D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAD02D66E666009E1D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CADB2D66E67F009E1D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAE62D66E693009E1D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAF12D66E6A2009E1D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB45CAFC2D66E6B9009E1D72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4690,6 +4970,86 @@
 			name = Debug;
 		};
 		AB45CAC02D64D906009E1D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB45CAD92D66E666009E1D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB45CADA2D66E666009E1D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB45CAE42D66E67F009E1D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB45CAE52D66E67F009E1D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB45CAEF2D66E693009E1D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB45CAF02D66E693009E1D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB45CAFA2D66E6A2009E1D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB45CAFB2D66E6A2009E1D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB45CB052D66E6B9009E1D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB45CB062D66E6B9009E1D72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -5801,6 +6161,51 @@
 			buildConfigurations = (
 				AB45CABF2D64D906009E1D72 /* Debug */,
 				AB45CAC02D64D906009E1D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45CAD82D66E666009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45CAD92D66E666009E1D72 /* Debug */,
+				AB45CADA2D66E666009E1D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45CAE32D66E67F009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45CAE42D66E67F009E1D72 /* Debug */,
+				AB45CAE52D66E67F009E1D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45CAEE2D66E693009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45CAEF2D66E693009E1D72 /* Debug */,
+				AB45CAF02D66E693009E1D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45CAF92D66E6A2009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45CAFA2D66E6A2009E1D72 /* Debug */,
+				AB45CAFB2D66E6A2009E1D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB45CB042D66E6B9009E1D72 /* Build configuration list for PBXNativeTarget "C300L6Q8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45CB052D66E6B9009E1D72 /* Debug */,
+				AB45CB062D66E6B9009E1D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
