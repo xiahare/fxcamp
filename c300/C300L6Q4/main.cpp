@@ -12,19 +12,16 @@ int main() {
     
     auto bs = [&](int m) -> void {
         int l=1, r=n, mid, ans=0;
-        while(l<=n){
+        while(l<r){
             mid = (l+r)/2;
-            if(a[mid]==m){
-                while(mid-1>0&&a[mid-1]==m){
-                    mid--;
-                }
-                ans = mid;
-                break;
-            } else if(a[mid]<m){
+            if(a[mid]<m){
                 l = mid + 1;
             } else {
-                r = mid - 1;
+                r = mid;
             }
+        }
+        if(l<=n && a[l]==m){
+            ans = l;
         }
         cout << ans << " ";
         
